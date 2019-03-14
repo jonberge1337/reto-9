@@ -1,3 +1,5 @@
+cl scr -- limpiar la pantalla
+
 prompt ¿En que tabla quiere dar de baja datos?
 prompt 1: 1. Provincias
 prompt 2: 2. Proveedores

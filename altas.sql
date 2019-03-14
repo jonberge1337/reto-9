@@ -1,3 +1,5 @@
+cl scr -- limpiar la pantalla
+
 prompt En que tabla quiere meter datos?
 
 prompt 1: 1. Provincias
