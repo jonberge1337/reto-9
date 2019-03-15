@@ -1,0 +1,3 @@
+exp system/manager@XE file=copia.dmp owner=almacen
+
+imp system/manager@XE file=copia.dmp fromuser=almacen touser=almacen
