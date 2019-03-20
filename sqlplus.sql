@@ -1,3 +1,5 @@
+cl scr --limpiar la pantalla
+
 prompt Escoge una de las siguientes opciones:
 prompt 1. Altas
 prompt 2. Bajas
@@ -15,7 +17,7 @@ select case '&selection.'
        when '2' then 'bajas.sql'
        when '3' then 'modifi.sql'
        when '4' then 'consultas.sql'
-       else 'menu'
+       else 'sqlplus.sql'
        end as script
 from dual;
 
