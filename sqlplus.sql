@@ -1,4 +1,8 @@
-cl scr --limpiar la pantalla
+--limpiar la pantalla
+cl scr 
+
+set lines 1000
+set pages 1000
 
 prompt Escoge una de las siguientes opciones:
 prompt 1. Altas
