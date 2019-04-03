@@ -1,4 +1,3 @@
-/* limpiar la pantalla*/
 cl scr 
 
 accept cod prompt "Introduzca el codigo del articulo:"
@@ -9,3 +8,5 @@ UPDATE ARTICULOS
 SET DESCRIPCION_ARTICULO = '&dsc'
 WHERE COD_ARTICULO = '&cod'
   AND TIPO_ARTICULO = '&tip';
+
+start modificaciones.sql

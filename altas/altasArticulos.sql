@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 accept cod prompt "Escriba el codigo del articulo a insertar: "
 accept tipo prompt "Escriba el tipo del articulo a insertar: "
@@ -11,3 +11,9 @@ accept uni_med prompt "Escriba el codigo de la unidad de medida del articulo a i
 INSERT INTO ARTICULOS VALUES(
     &cod, &tipo, &descripcion, &pr_vent, &stock, &stock_min, &uni_med
 );
+
+prompt "Alta completada"
+
+accept continuar prompt "Pulse una tecla para continuar"
+
+start altas.sql

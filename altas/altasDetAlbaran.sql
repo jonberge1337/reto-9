@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 accept num prompt "Escriba el numero del albaran a insertar: "
 accept cod prompt "Escriba el codigo del articulo a insertar: "
@@ -9,3 +9,9 @@ accept cantidad prompt "Escriba el codigo de pago del pedido a insertar: "
 INSERT INTO DETALLE_ALBARAN VALUES(
     &num, &cod, &tipo, &precio, &cantidad
 );
+
+prompt "Alta completada"
+
+accept continuar prompt "Pulse una tecla para continuar"
+
+start altas.sql

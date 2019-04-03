@@ -1,4 +1,3 @@
-/* limpiar la pantalla*/
 cl scr
 
 UPDATE ARTICULOS
@@ -7,3 +6,5 @@ WHERE STOCK > (SELECT AVG(STOCK)
                FROM ARTICULOS);
 
 prompt "Articulos actualizados"
+
+start modificaciones.sql

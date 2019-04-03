@@ -1,4 +1,3 @@
-/* limpiar la pantalla*/
 cl scr 
 
 accept tab prompt "Introduzca el nombre de la tabla:"
@@ -7,3 +6,5 @@ accept reg prompt "Introduzca el nombre del registro:"
 
 UPDATE '&tab'
 SET '&col' = '&reg';
+
+start modificaciones.sql

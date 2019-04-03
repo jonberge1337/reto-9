@@ -1,4 +1,3 @@
---limpiar la pantalla
 cl scr 
 
 set lines 1000

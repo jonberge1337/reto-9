@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 accept cod prompt "Escriba el codigo de cliente: "
 accept empresa prompt "Escriba escriba el nombre de la empresa: "
@@ -12,3 +12,9 @@ accept pago prompt "Escriba la forma de pago que va a utilizar: "
 INSERT INTO CLIENTES VALUES(
     &cod, &empresa, &gerente, &apel1, &apel2, &ciudad, &pais, &pago
 );
+
+prompt "Alta completada"
+
+accept continuar prompt "Pulse una tecla para continuar"
+
+start altas.sql

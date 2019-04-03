@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 prompt En el siguiente menu le proponemos algunas opciones sobre consultas, escoja la deseada:
 prompt 1: 1. Visualizar los datos de X tabla

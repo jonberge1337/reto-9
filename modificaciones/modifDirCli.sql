@@ -1,4 +1,3 @@
-/* limpiar la pantalla*/
 cl scr 
 
 accept cod prompt "Introduzca el Codigo del Cliente:"
@@ -9,3 +8,5 @@ UPDATE DIRECCIONES
 SET DIRECCION = '&dirn'
 WHERE COD_CLIENTE = '&cod'
   AND DIRECCION = '&dirv';
+
+start modificaciones.sql

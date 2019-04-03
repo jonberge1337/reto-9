@@ -1,4 +1,3 @@
-/* limpiar la pantalla*/
 cl scr 
 
 accept fecha prompt "Articulos comprados en la fecha que indiques a continuacion: "
@@ -9,3 +8,5 @@ WHERE DETALLE_PEDIDO.NUM_PEDIDO = CAB_PEDIDO.NUM_PEDIDO
   AND DETALLE_PEDIDO.COD_ARTICULO = ARTICULOS.COD_ARTICULO
   AND DETALLE_PEDIDO.TIPO_ARTICULO = ARTICULOS.TIPO_ARTICULO
   AND CAB_PEDIDO.FECHA_PEDIDO = TO_DATE('fecha', 'DD/MM/YYYY');
+
+start consultas.sql

@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 accept num prompt "Escriba el numero de factura: "
 accept fecha prompt "Escriba fecha de emision de la factura: "
@@ -8,3 +8,9 @@ accept proveedor prompt "Escriba el codigo del proveedor: "
 INSERT INTO CAB_FACTURA VALUES(
     &num, TO_DATE(&fecha, 'DD/MM/YYYY'), &plazo, &proveedor
 );
+
+prompt "Alta completada"
+
+accept continuar prompt "Pulse una tecla para continuar"
+
+start altas.sql

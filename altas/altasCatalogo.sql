@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 accept proveedor prompt "Escriba el codigo del proveedor a insertar: "
 accept articulo prompt "Escriba el codigo del articulo a insertar: "
@@ -9,3 +9,9 @@ accept cantidad prompt "Escriba la cantidad minima: "
 INSERT INTO CATALOGO VALUES(
     &proveedor, &articulo, &tipo, &precio, &cantidad
 );
+
+prompt "Alta completada"
+
+accept continuar prompt "Pulse una tecla para continuar"
+
+start altas.sql

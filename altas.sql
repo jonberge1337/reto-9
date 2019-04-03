@@ -1,4 +1,4 @@
-cl scr -- limpiar la pantalla
+cl scr
 
 prompt En que tabla quiere meter datos?
 
